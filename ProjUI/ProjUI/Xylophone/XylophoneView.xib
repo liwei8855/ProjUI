@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="XylophoneView" customModule="ProjUI" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="448" height="435"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jbH-ZQ-e9O">
+                    <rect key="frame" x="0.0" y="44" width="448" height="50"/>
+                    <color key="backgroundColor" systemColor="systemRedColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="w9W-KC-R3e"/>
+                    </constraints>
+                    <state key="normal" title="Button1"/>
+                    <connections>
+                        <action selector="tapButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="MM7-RV-1Hn"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JZr-Up-6UX">
+                    <rect key="frame" x="0.0" y="144" width="448" height="50"/>
+                    <color key="backgroundColor" systemColor="systemYellowColor"/>
+                    <state key="normal" title="Button3"/>
+                    <connections>
+                        <action selector="tapButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="N0k-wh-afS"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LVi-EE-yVS">
+                    <rect key="frame" x="0.0" y="245" width="448" height="50"/>
+                    <color key="backgroundColor" systemColor="systemTealColor"/>
+                    <state key="normal" title="Button5"/>
+                    <connections>
+                        <action selector="tapButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="lwR-V3-eSq"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eqz-Tl-YbK">
+                    <rect key="frame" x="0.0" y="194" width="448" height="50"/>
+                    <color key="backgroundColor" systemColor="systemGreenColor"/>
+                    <state key="normal" title="Button4"/>
+                    <connections>
+                        <action selector="tapButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="hca-Gn-LLw"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0P5-yB-wZp">
+                    <rect key="frame" x="0.0" y="296" width="448" height="50"/>
+                    <color key="backgroundColor" systemColor="systemBlueColor"/>
+                    <state key="normal" title="Button6"/>
+                    <connections>
+                        <action selector="tapButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="LXj-ia-uHh"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XRk-y3-Rbp">
+                    <rect key="frame" x="0.0" y="347" width="448" height="50"/>
+                    <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                    <state key="normal" title="Button7"/>
+                    <connections>
+                        <action selector="tapButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="bNh-Kg-FNk"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zev-oi-uEm">
+                    <rect key="frame" x="-1.5" y="94" width="451" height="50"/>
+                    <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                    <state key="normal" title="Button2"/>
+                    <connections>
+                        <action selector="tapButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="8Rq-tT-3f2"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="LVi-EE-yVS" firstAttribute="width" secondItem="jbH-ZQ-e9O" secondAttribute="width" id="2Sj-yf-kIY"/>
+                <constraint firstItem="eqz-Tl-YbK" firstAttribute="width" secondItem="jbH-ZQ-e9O" secondAttribute="width" id="4fI-jy-n13"/>
+                <constraint firstItem="eqz-Tl-YbK" firstAttribute="height" secondItem="jbH-ZQ-e9O" secondAttribute="height" id="65e-Q7-VPh"/>
+                <constraint firstItem="XRk-y3-Rbp" firstAttribute="top" secondItem="0P5-yB-wZp" secondAttribute="bottom" constant="1" id="A1b-wD-Eoe"/>
+                <constraint firstItem="XRk-y3-Rbp" firstAttribute="centerX" secondItem="jbH-ZQ-e9O" secondAttribute="centerX" id="AjA-b1-sTv"/>
+                <constraint firstItem="XRk-y3-Rbp" firstAttribute="height" secondItem="jbH-ZQ-e9O" secondAttribute="height" id="DT2-3j-2XT"/>
+                <constraint firstItem="Zev-oi-uEm" firstAttribute="height" secondItem="jbH-ZQ-e9O" secondAttribute="height" id="Dja-24-edK"/>
+                <constraint firstItem="JZr-Up-6UX" firstAttribute="height" secondItem="jbH-ZQ-e9O" secondAttribute="height" id="FK8-nq-hXv"/>
+                <constraint firstItem="0P5-yB-wZp" firstAttribute="top" secondItem="LVi-EE-yVS" secondAttribute="bottom" constant="1" id="GFW-6p-MTe"/>
+                <constraint firstItem="XRk-y3-Rbp" firstAttribute="width" secondItem="jbH-ZQ-e9O" secondAttribute="width" id="Hu4-vH-ZIe"/>
+                <constraint firstItem="0P5-yB-wZp" firstAttribute="width" secondItem="jbH-ZQ-e9O" secondAttribute="width" id="Ivi-sU-8M9"/>
+                <constraint firstItem="jbH-ZQ-e9O" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="J9y-2A-uKN"/>
+                <constraint firstItem="Zev-oi-uEm" firstAttribute="width" secondItem="jbH-ZQ-e9O" secondAttribute="width" multiplier="1.0067" id="JFf-5G-fYa"/>
+                <constraint firstItem="LVi-EE-yVS" firstAttribute="centerX" secondItem="jbH-ZQ-e9O" secondAttribute="centerX" id="KIC-5F-B2p"/>
+                <constraint firstItem="0P5-yB-wZp" firstAttribute="height" secondItem="jbH-ZQ-e9O" secondAttribute="height" id="N1S-cc-EeT"/>
+                <constraint firstItem="JZr-Up-6UX" firstAttribute="width" secondItem="jbH-ZQ-e9O" secondAttribute="width" id="Rgk-Ol-GiB"/>
+                <constraint firstItem="JZr-Up-6UX" firstAttribute="centerX" secondItem="jbH-ZQ-e9O" secondAttribute="centerX" id="a32-Yq-JmL"/>
+                <constraint firstItem="0P5-yB-wZp" firstAttribute="centerX" secondItem="jbH-ZQ-e9O" secondAttribute="centerX" id="dq0-Gm-HDi"/>
+                <constraint firstItem="eqz-Tl-YbK" firstAttribute="top" secondItem="JZr-Up-6UX" secondAttribute="bottom" id="fn3-bb-skt"/>
+                <constraint firstItem="jbH-ZQ-e9O" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="fvd-LP-h1V"/>
+                <constraint firstItem="Zev-oi-uEm" firstAttribute="centerX" secondItem="jbH-ZQ-e9O" secondAttribute="centerX" id="heg-14-TDX"/>
+                <constraint firstItem="JZr-Up-6UX" firstAttribute="top" secondItem="Zev-oi-uEm" secondAttribute="bottom" id="oEt-e2-gGy"/>
+                <constraint firstItem="Zev-oi-uEm" firstAttribute="top" secondItem="jbH-ZQ-e9O" secondAttribute="bottom" id="tEZ-fq-HfZ"/>
+                <constraint firstItem="jbH-ZQ-e9O" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="tQR-rM-Gdf"/>
+                <constraint firstItem="eqz-Tl-YbK" firstAttribute="centerX" secondItem="jbH-ZQ-e9O" secondAttribute="centerX" id="xvk-9R-Ddv"/>
+                <constraint firstItem="LVi-EE-yVS" firstAttribute="height" secondItem="jbH-ZQ-e9O" secondAttribute="height" id="y3R-Xi-bCZ"/>
+                <constraint firstItem="LVi-EE-yVS" firstAttribute="top" secondItem="eqz-Tl-YbK" secondAttribute="bottom" constant="1" id="zcU-5m-jvI"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-121.73913043478262" y="-112.83482142857142"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
